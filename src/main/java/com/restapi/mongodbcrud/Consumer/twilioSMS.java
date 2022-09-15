@@ -10,8 +10,8 @@ import com.twilio.type.PhoneNumber;
 public class twilioSMS {
    public ResponseEntity<String> sendSMS(String phoneNumber, String message) {
 
-      String accountSID = "AC6486127ed45ab2d640cd71c4cf17fdde";
-      String authToken = "2fadc22cd92b9229783421574af2028b";
+      String accountSID = "None";
+      String authToken = "none";
       String twilioNumber = "+18638672212";
       String phoneNo = "+91" + phoneNumber;
 
